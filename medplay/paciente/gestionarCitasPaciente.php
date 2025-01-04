@@ -1,4 +1,5 @@
-<?php
+<?php holamoi
+    
 session_start();
 if (!isset($_SESSION['idUsuario']) || $_SESSION['rol'] != 'paciente') {
     header("Location: ../inicio/inicioSesion.php");
